@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tips_detail_page">
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:background="@color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="50dp"
+        android:id="@+id/tips_detail_back_button"
+        android:src="@drawable/back_button"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tips_detail_back_button"
+        android:text="Memasak Sendiri"
+        android:textSize="30dp"
+        android:id="@+id/tips_detail_title_edit"
+        android:layout_margin="30dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_below="@id/tips_detail_title_edit"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:id="@+id/tips_detail_image_edit"
+        android:src="@drawable/image2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tips_detail_body_edit"
+        android:textSize="16dp"
+        android:layout_below="@id/tips_detail_image_edit"
+        android:layout_margin="30dp"
+        android:text="Memasak makanan sendiri akan lebih sehat dibandingkan membelinya dari luar. Selain itu, memasak sendiri dapat memastikan kalori yang diperoleh dan kandungan gizi di dalam makanan tersebut. Saat memasak sendiri, seseorang juga dapat memiliki kendali penuh terhadap resep makanan yang dibuat."
+        />
+</RelativeLayout>
